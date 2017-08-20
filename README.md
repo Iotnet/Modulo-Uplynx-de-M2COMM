@@ -16,7 +16,7 @@ Antes que nada, debemos conocer los comandos AT del módulo M2COMM. A continuaci
 
 ![modulo_m2comm](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/comandos1.png?raw=true)
 
-Podemos destacar algunos comandos importantes como:
+Cabe destacar algunos comandos importantes como:
 <br />
 -AT$ID?: regresa el ID del dispositivo.
 <br />
@@ -25,3 +25,9 @@ Podemos destacar algunos comandos importantes como:
 (Leer la hoja de datos del módulo para conocer más sobre las especificaciones técnicas y la lista completa de comandos AT.)
 
 
+Una vez que se conocen los comandos AT que nos permitirán comunicarnos con la tarjeta, se procede a la configuración de la misma.
+
+Conectar la tarjeta a un puerto USB de manera que los jumpers estén conectados en “POWER_EN Enable(Pc)” y “5VUSB”:
+
+![m2comm_5](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_5.png?raw=true)
+ 
