@@ -4,8 +4,9 @@ Proyecto para aprender a utilizar el modulo Uplynx RCZ2 de M2COMM por medio de c
 ## Equipo y software necesario ##
 <br />
 -Módulo Uplynx RCZ2 de M2COMM.
-<br />
+
 ![modulo_m2comm](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/modulo_m2comm.png?raw=true)
+
 <br />
 -Software para emular una Terminal en Windows (Tera Term, PuTTy, KiTTy, etc).
 <br />
