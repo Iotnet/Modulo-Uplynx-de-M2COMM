@@ -39,9 +39,13 @@ Cerramos el administrador de dispositivos y ejecutamos Tera Term. Al abrirlo nos
 
 ![m2comm_3](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_3.png?raw=true)
 
-Si todo esta bien configurado, nos aparecerá el siguiente mensaje en la terminal:
+Si todo está correctamente configurado, nos aparecerá el siguiente mensaje en la terminal:
 
 ![m2comm_4](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_4.png?raw=true)
+
+Dependiendo del programa utilizado, habrá que configurar el puerto antes de realizar la conexión (Baud rate, data, parity, bit stop), en este caso Tera Term ya lo hace por defecto:
+
+![m2comm_6](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_6.png?raw=true)
 
 
 
