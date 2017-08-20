@@ -13,6 +13,7 @@ Proyecto para aprender a utilizar el modulo Uplynx RCZ2 de M2COMM por medio de c
 
 ## Primeros pasos ## 
 Antes que nada, debemos conocer los comandos AT del módulo M2COMM. A continuación se presentan algunos de ellos:
+
 ![modulo_m2comm](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/comandos1.png?raw=true)
 
 Podemos destacar algunos comandos importantes como:
