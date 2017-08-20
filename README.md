@@ -1,5 +1,5 @@
 # Modulo-Uplynx-de-M2COMM #
-Proyecto para aprender a utilizar el modulo Uplynx RCZ2 de M2COMM por medio de comandos AT a través de una terminal. Una vez familiarizado con las instrucciones propias del módulo, se utilizará el programa M2C_Uplynx para crear pequeños programas para posteriormente guardarlo en el MCU del módulo M2COMM. 
+Proyecto para aprender a utilizar el modulo Uplynx RCZ2 de M2COMM por medio de comandos AT a través de una terminal. Una vez familiarizado con las instrucciones propias del módulo, se utilizará el programa M2C_Uplynx para crear pequeños programas que posteriormente serán guardados en el MCU del módulo M2COMM. 
 
 ## Equipo y software necesario ##
 <br />
@@ -43,7 +43,7 @@ Si todo está correctamente configurado, aparecerá el siguiente mensaje en la t
 
 ![m2comm_4](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_4.png?raw=true)
 
-Dependiendo del programa utilizado, habrá que configurar el puerto antes de realizar la conexión (Baud rate, data, parity, bit stop), en este caso Tera Term ya lo hace por defecto. (Ir a Setup->Serial port para abrir la ventana con la configuración del puerto):
+Dependiendo del programa utilizado, habrá que configurar el puerto antes de realizar la conexión (Baud rate=9600, data=8, parity=none, bit stop=1), en este caso Tera Term ya lo hace por defecto. (Ir a Setup->Serial port para abrir la ventana con la configuración del puerto):
 
 ![m2comm_6](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_6.png?raw=true)
 
@@ -51,5 +51,18 @@ Escribimos AT$ID? y damos ENTER para obtener el ID del dispositivo. Después esc
 
 ![m2comm_7](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_7.png?raw=true)
 
+## Enviando el primer mensaje ##
 
+Una vez registrado en el backend, procedemos a configurar la tarjeta para la correcta comunicación en nuestra region (en este caso, México es zona 2). Escribimos los siguientes comandos en la terminal dando ENTER después de cada instrucción. 
+<br />
+- AT$0=1,2 : Carga la librería de Sigfox para la región 2.
+<br />
+- AT$IF=902200000 : Establece la frecuencia de transmisión a 902.2 MHz.
+<br />
+- At$302=22 : Establece la potencia de la señal de salida a 22 dBm.
+<br />
+- AT$400=1FF,0,0,1 : Palabras para configurar la comunicación con Sigfox.
+<br />
+-AT$RCZ=2 : Establece la región como zona 2.
 
+![m2comm_8](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_8.png?raw=true)
