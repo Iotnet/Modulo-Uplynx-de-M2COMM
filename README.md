@@ -74,3 +74,4 @@ Ahora que ya está todo configurado, ya podemos enviar un mensaje a través de S
 
 Una vez que el mensaje es enviado, aparecerá OK en la terminal. Si nos dirigimos al backend podemos ver el mensaje que acabamos de enviar.
 
+![m2comm_10](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_10.png?raw=true)
