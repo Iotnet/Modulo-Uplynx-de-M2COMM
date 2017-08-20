@@ -39,13 +39,17 @@ Cerramos el administrador de dispositivos y ejecutamos Tera Term. Al abrirlo nos
 
 ![m2comm_3](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_3.png?raw=true)
 
-Si todo está correctamente configurado, nos aparecerá el siguiente mensaje en la terminal:
+Si todo está correctamente configurado, aparecerá el siguiente mensaje en la terminal:
 
 ![m2comm_4](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_4.png?raw=true)
 
-Dependiendo del programa utilizado, habrá que configurar el puerto antes de realizar la conexión (Baud rate, data, parity, bit stop), en este caso Tera Term ya lo hace por defecto:
+Dependiendo del programa utilizado, habrá que configurar el puerto antes de realizar la conexión (Baud rate, data, parity, bit stop), en este caso Tera Term ya lo hace por defecto. (Ir a Setup->Serial port para abrir la ventana con la configuración del puerto):
 
 ![m2comm_6](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_6.png?raw=true)
+
+Escribimos AT$ID? y damos ENTER para obtener el ID del dispositivo. Después escribimos AT$PAC? y damos ENTER.
+
+![m2comm_7](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_7.png?raw=true)
 
 
 
