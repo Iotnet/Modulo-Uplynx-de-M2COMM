@@ -54,6 +54,7 @@ Escribimos AT$ID? y damos ENTER para obtener el ID del dispositivo. Después esc
 ## Enviando el primer mensaje ##
 
 Una vez registrado en el backend, procedemos a configurar la tarjeta para la correcta comunicación en nuestra region (en este caso, México es zona 2). Escribimos los siguientes comandos en la terminal dando ENTER después de cada instrucción. 
+
 <br />
 - AT$0=1,2 : Carga la librería de Sigfox para la región 2.
 <br />
