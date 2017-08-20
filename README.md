@@ -3,7 +3,7 @@ Proyecto para aprender a utilizar el modulo Uplynx RCZ2 de M2COMM por medio de c
 
 ## Equipo y software necesario ##
 <br />
--Modulo Uplynx RCZ2 de M2COMM.
+-Módulo Uplynx RCZ2 de M2COMM.
 <br />
 ![modulo_m2comm](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/modulo_m2comm.png?raw=true)
 <br />
@@ -12,14 +12,15 @@ Proyecto para aprender a utilizar el modulo Uplynx RCZ2 de M2COMM por medio de c
 -Una cuenta en Sigfox. Para México puedes obtener una cuenta escribiendo al correo contacto@iotnet.mx
 
 ## Primeros pasos ## 
-Antes que nada, debemos conocer los comandos AT del modulo M2COMM. A continuación se presentan algunos de ellos:
-![modulo_m2comm](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/comandos.png?raw=true)
+Antes que nada, debemos conocer los comandos AT del módulo M2COMM. A continuación se presentan algunos de ellos:
+![modulo_m2comm](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/comandos1.png?raw=true)
 
-Podemos destacar algunos comandos importantes como son:
+Podemos destacar algunos comandos importantes como:
 <br />
 -AT$ID?: regresa el ID del dispositivo.
 <br />
 -AT$PAC?: regresa el PAC.
 
-(Leer la hoja de datos del modulo para conocer mas sobre las especificaciones técnicas y la lista completa de comandos AT.)
+(Leer la hoja de datos del módulo para conocer más sobre las especificaciones técnicas y la lista completa de comandos AT.)
+
 
