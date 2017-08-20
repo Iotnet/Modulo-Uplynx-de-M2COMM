@@ -47,7 +47,7 @@ Dependiendo del programa utilizado, habrá que configurar el puerto antes de rea
 
 ![m2comm_6](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_6.png?raw=true)
 
-Escribimos AT$ID? y damos ENTER para obtener el ID del dispositivo. Después escribimos AT$PAC? y damos ENTER.
+Escribimos AT$ID? y damos ENTER para obtener el ID del dispositivo. Después escribimos AT$PAC? y damos ENTER. Con esto ya tenemos el ID y el PAC del dispositivo para registrarlo en el backend.
 
 ![m2comm_7](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_7.png?raw=true)
 
