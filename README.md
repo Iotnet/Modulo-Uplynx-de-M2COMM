@@ -29,5 +29,5 @@ Una vez que se conocen los comandos AT que nos permitirán comunicarnos con la t
 
 Conectar la tarjeta a un puerto USB de manera que los jumpers estén conectados en “POWER_EN Enable(Pc)” y “5VUSB”:
 
-![m2comm_5](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_5.png?raw=true)
+![m2comm_5](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_5.jpg?raw=true)
  
