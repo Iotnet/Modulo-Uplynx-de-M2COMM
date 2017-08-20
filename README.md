@@ -39,5 +39,9 @@ Cerramos el administrador de dispositivos y ejecutamos Tera Term. Al abrirlo nos
 
 ![m2comm_3](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_3.png?raw=true)
 
+Si todo esta bien configurado, nos aparecerá el siguiente mensaje en la terminal:
+
+![m2comm_4](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_4.png?raw=true)
+
 
 
