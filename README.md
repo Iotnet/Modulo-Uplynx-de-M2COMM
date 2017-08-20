@@ -67,3 +67,10 @@ Una vez registrado en el backend, procedemos a configurar la tarjeta para la cor
 -AT$RCZ=2 : Establece la región como zona 2.
 
 ![m2comm_8](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_8.png?raw=true)
+
+Ahora que ya está todo configurado, ya podemos enviar un mensaje a través de Sigfox para visualizarlo en el backend. En este caso se mandara “1000”, por lo que en la terminal escribimos AT$IF=1000 y damos ENTER:
+
+![m2comm_9](https://github.com/Iotnet/Modulo-Uplynx-de-M2COMM/blob/master/images/m2comm_9.png?raw=true)
+
+Una vez que el mensaje es enviado, aparecerá OK en la terminal. Si nos dirigimos al backend podemos ver el mensaje que acabamos de enviar.
+
